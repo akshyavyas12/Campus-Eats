@@ -1,2 +1,2 @@
 # Campus-Eats
-Food Delivery Management System
+Food Ordering System
