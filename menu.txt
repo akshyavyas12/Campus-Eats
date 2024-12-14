@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Food App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+    </header>
+    <div class="content">
+        <h2>Our Delicious Vegetarian Offerings</h2>
+        
+        <div class="menu-item">
+            <h3>Paneer Butter Masala</h3>
+            <p>A rich and creamy dish made with paneer, tomatoes, and a blend of spices. Best enjoyed with naan.</p>
+            <p><strong>Price:</strong> ₹249</p>
+            <button onclick="orderItem('Paneer Butter Masala')">Order Now</button>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Chole Bhature</h3>
+            <p>Spicy chickpeas served with fluffy deep-fried bread. A classic North Indian dish!</p>
+            <p><strong>Price:</strong> ₹199</p>
+            <button onclick="orderItem('Chole Bhature')">Order Now</button>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Vegetable Biryani</h3>
+            <p>A fragrant rice dish cooked with mixed vegetables and aromatic spices. Served with raita.</p>
+            <p><strong>Price:</strong> ₹229</p>
+            <button onclick="orderItem('Vegetable Biryani')">Order Now</button>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Palak Paneer</h3>
+            <p>Spinach and paneer cooked together with spices, a nutritious and delicious dish!</p>
+            <p><strong>Price:</strong> ₹239</p>
+            <button onclick="orderItem('Palak Paneer')">Order Now</button>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Aloo Gobi</h3>
+            <p>A dry curry made with potatoes and cauliflower, seasoned with spices. A comfort food favorite!</p>
+            <p><strong>Price:</strong> ₹179</p>
+            <button onclick="orderItem('Aloo Gobi')">Order Now</button>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Dal Makhani</h3>
+            <p>A creamy black lentil dish slow-cooked with butter and spices. Perfect with rice or naan.</p>
+            <p><strong>Price:</strong> ₹199</p>
+            <button onclick="orderItem('Dal Makhani')">Order Now</button>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Vegetable Samosa</h3>
+            <p>Spiced potato and pea filling in a crispy pastry shell. A perfect snack!</p>
+            <p><strong>Price:</strong> ₹99</p>
+            <button onclick="orderItem('Vegetable Samosa')">Order Now</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='about-us.html'">About Us</button>
+        <button onclick="window.location.href='feedback.html'">Feedback</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
